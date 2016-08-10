@@ -29,7 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationController.navigationBarHidden = YES;
+//    self.navigationController.navigationBarHidden = YES;
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(100, 100, 100, 100);

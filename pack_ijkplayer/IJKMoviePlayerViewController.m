@@ -521,6 +521,7 @@
     RAC(self.playViewFullScreen.playOrPause,selected) = RACObserve(self.player, isPlaying);
     RAC(self.playView.fullSreenBtn,selected) = RACObserve(self, isFullScreen);
     RAC(self.playViewFullScreen.fullSreenBtn,selected) = RACObserve(self, isFullScreen);
+//    RAC(self.navigationController,navigationBarHidden) = RACObserve(self, isFullScreen);
     
     // 亮度view加到window最上层
     ZFBrightnessView *brightnessView = [ZFBrightnessView sharedBrightnessView];
@@ -611,6 +612,11 @@
                                                     name:IJKMPMoviePlayerPlaybackStateDidChangeNotification
                                                   object:_player];
     
+}
+
+- (void)setIsFullScreen:(BOOL)isFullScreen {
+    _isFullScreen = isFullScreen;
+    self.navigationController.navigationBarHidden = _isFullScreen;
 }
 
 @end

@@ -75,6 +75,7 @@
 		101B57FF1D59CF360032FA34 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101B57FE1D59CF360032FA34 /* IJKMediaFramework.framework */; };
 		101B58031D59D33C0032FA34 /* IJKMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101B58011D59D33C0032FA34 /* IJKMoviePlayerViewController.m */; };
 		101B58041D59D33C0032FA34 /* IJKMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101B58021D59D33C0032FA34 /* IJKMoviePlayerViewController.xib */; };
+		91A19AD21D5BE09000E8ACEA /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A19AD11D5BE09000E8ACEA /* ViewController2.m */; };
 		CBB6D53D06E6CCA8C906275F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD85B4D0F8DB563DE3954458 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -180,6 +181,8 @@
 		101B58011D59D33C0032FA34 /* IJKMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJKMoviePlayerViewController.m; path = pack_ijkplayer/IJKMoviePlayerViewController.m; sourceTree = SOURCE_ROOT; };
 		101B58021D59D33C0032FA34 /* IJKMoviePlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IJKMoviePlayerViewController.xib; path = pack_ijkplayer/IJKMoviePlayerViewController.xib; sourceTree = SOURCE_ROOT; };
 		3CBC8FF399E66113D4536ABA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		91A19AD01D5BE09000E8ACEA /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		91A19AD11D5BE09000E8ACEA /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		EAA4AF3BCFC59FDA0B2B250B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FD85B4D0F8DB563DE3954458 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -262,6 +265,8 @@
 				101B57361D59CE050032FA34 /* Info.plist */,
 				101B57FE1D59CF360032FA34 /* IJKMediaFramework.framework */,
 				101B57251D59CE050032FA34 /* Supporting Files */,
+				91A19AD01D5BE09000E8ACEA /* ViewController2.h */,
+				91A19AD11D5BE09000E8ACEA /* ViewController2.m */,
 			);
 			path = pack_ijkplayer;
 			sourceTree = "<group>";
@@ -643,6 +648,7 @@
 				101B57D61D59CE310032FA34 /* ZFBrightnessView.m in Sources */,
 				101B572D1D59CE050032FA34 /* ViewController.m in Sources */,
 				101B58031D59D33C0032FA34 /* IJKMoviePlayerViewController.m in Sources */,
+				91A19AD21D5BE09000E8ACEA /* ViewController2.m in Sources */,
 				101B572A1D59CE050032FA34 /* AppDelegate.m in Sources */,
 				101B57D31D59CE310032FA34 /* GLVideoPlayView.m in Sources */,
 				101B57E31D59CE410032FA34 /* GLTestSeeMovieVC.m in Sources */,
